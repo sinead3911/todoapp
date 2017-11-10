@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['stream3week1day1-sinead391.c9users.io']
+ALLOWED_HOSTS = ['stream3week1day1-sinead391.c9users.io', "sineadstodoapp.herokuapp.com"]
 
 
 # Application definition
