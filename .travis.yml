@@ -1,1 +1,8 @@
-{"filter":false,"title":".travis.yml","tooltip":"/todoitem/templates/.travis.yml","undoManager":{"mark":0,"position":0,"stack":[[{"start":{"row":0,"column":0},"end":{"row":7,"column":29},"action":"insert","lines":["language: python","","python:","  - \"3.6\"","","install: \"pip install -r requirements.txt\"","","script: python manage.py test"],"id":1}]]},"ace":{"folds":[],"scrolltop":0,"scrollleft":0,"selection":{"start":{"row":7,"column":29},"end":{"row":7,"column":29},"isBackwards":false},"options":{"guessTabSize":true,"useWrapMode":false,"wrapToView":true},"firstLineState":{"row":3,"state":"start","mode":"ace/mode/yaml"}},"timestamp":1510567841341,"hash":"3f37af9a9ebe4fdc1e5f829ffd3383efab741922"}
+language: python
+
+python:
+  - "3.6"
+
+install: "pip install -r requirements.txt"
+
+script: python manage.py test
