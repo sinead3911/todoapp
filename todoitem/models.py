@@ -8,7 +8,7 @@ class TodoItem(models.Model):
     
     def __str__(self):
         
-        # status = "D" if self.done else "N"
+        status = "D" if self.done else "N"
         
-        # return "{0} ({1})".format(self.name, status)
-        return self.name
+        return "{0} ({1})".format(self.name, status)
+       
