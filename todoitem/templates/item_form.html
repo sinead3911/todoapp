@@ -8,17 +8,15 @@
 </head>
 <body>
     
-    <h1>Add an ITEM!</h1>
-
+    <h1>I need to do this...</h1>
     
-     <form method= "POST" action="/add">
-         
-         {% csrf_token %}
-        
-        {{form}}
-        
-        
-       <button type= "submit" >Save</button>
+    <form method="POST">
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <button type="submit">Save</button>
         
     </form>
     
